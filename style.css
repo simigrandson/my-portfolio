@@ -1,0 +1,259 @@
+body{
+    background-color: #f0f4f8;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+#home p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+#home{
+    background-color: #eaf2f8;
+    padding: 80px 20px;
+    text-align: center;
+}
+#home h1{
+    font-size: 42px;
+    color: #163a5f;
+    margin-bottom: 15px;
+}
+#home h2{
+    font-size: 26px;
+    color: #2874a6;
+}
+.home-button{
+    display: inline-block;
+    background-color: #163a5f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.home-button:hover{
+    background-color: #2874a6;
+}
+
+#about {
+    background-color: white;
+    padding: 60px 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#about h2 {
+    color: #163a5f;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#about p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+
+    nav{
+    background-color: #163a5f;
+    padding: 20px;
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover{
+    color:yellow;}
+section{
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid blue;
+}
+h1{
+    color:#163a5f;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    color:#2874a6;
+    text-align: center;
+}
+p{
+    color:#444444;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px;
+    padding:20px ;
+    
+}
+
+/* Skills section */
+#skills {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+/* Skills container */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual skill cards */
+.skill-card {
+    background-color: #163a5f;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Education and Experience */
+#education,
+#experience {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+/* Card container */
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Individual cards */
+.info-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.info-card h3 {
+    color: #163a5f;
+}
+
+.info-card p {
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* Projects section */
+#projects {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+/* Projects container */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Individual project cards */
+.project-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Project title */
+.project-card h3 {
+    color: #163a5f;
+    text-align: center;
+}
+
+/* Project description */
+.project-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contact section */
+#contact {
+    background-color: #eaf2f8;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+/* Contact heading */
+#contact h2 {
+    color: #163a5f;
+    font-size: 32px;
+}
+
+/* Contact details */
+.contact-details {
+    background-color: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Email link */
+.contact-details a {
+    color: #2874a6;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: orange;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .skills-container,
+    .info-container,
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        width: 70%;
+    }
+
+    .info-card,
+    .project-card {
+        width: 85%;
+        box-sizing: border-box;
+    }
+
+    #home h1 {
+        font-size: 30px;
+    }
+
+    #home h2 {
+        font-size: 21px;
+    }
+}
